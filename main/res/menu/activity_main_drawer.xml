@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+
+
+<item
+    android:id="@+id/nav_attendance"
+    android:icon="@drawable/attendance"
+    android:title="Attendance"/>
+
+<item
+    android:id="@+id/nav_timetable"
+    android:icon="@drawable/time"
+    android:title="Timetable" />
+
+    <item
+        android:id="@+id/nav_calendar"
+        android:title="Academic Calendar"
+        android:icon="@drawable/calendar" />
+ 
+ <item
+    android:id="@+id/nav_detail"
+    android:icon="@drawable/settings"
+    android:title="Details" />
+    </group>
+</menu>
+
